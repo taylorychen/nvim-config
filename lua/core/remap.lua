@@ -21,5 +21,8 @@ vim.keymap.set("x", "<leader>p", "\"_dP")
 
 vim.keymap.set("n", "Q", "<nop>")
 
--- vim.keymap.set("v", "<C-_>", "gc")
--- vim.keymap.set("v", "<c-/>", "gc")
+-- moving between split buffers
+vim.keymap.set("n", "<leader>l", "<C-w><C-l>")
+vim.keymap.set("n", "<leader>h", "<C-w><C-h>")
+vim.keymap.set("n", "<leader>j", "<C-w><C-j>")
+vim.keymap.set("n", "<leader>k", "<C-w><C-k>")
