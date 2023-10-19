@@ -9,6 +9,10 @@ vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = tr
 vim.keymap.set('n', '<c-u>', "<c-u>zz", { silent = true })
 vim.keymap.set('n', '<C-d>', "<C-d>zz", { silent = true })
 
+-- go to beginning/end of line
+vim.keymap.set('n', 'H', "^", { silent = true })
+vim.keymap.set('n', 'L', "$", { silent = true })
+
 -- netrw
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
